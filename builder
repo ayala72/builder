@@ -8,7 +8,6 @@ file=
 HelpUsage() {
     echo -e "Usage: builder <file>
     [-n | --name]:      Names the compiled file. (Default: file name)
-    [-c | --compiler]:  Set the compiler. (Default: g++)"
 }
 
 SetName() {
